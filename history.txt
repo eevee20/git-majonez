@@ -1,0 +1,42 @@
+  726  git init
+  727  touch main.cpp
+  728  cat main.cpp
+  729  git add main.cpp 
+  730  git status
+  731  git commit -m"Initial commit"
+  732  emacs main.cpp 
+  733  cat main.cpp 
+  734  git status
+  735  git commit -m"Farewell changed"
+  736  git add main.cpp 
+  737  git commit -m"Farewell changed"
+  738  git status
+  739  git remote add origin https://github.com/eevee20/git-majonez.git
+  740  git push -u origin main
+  741  git status
+  742  git push -u origin master
+  743  git branch cs
+  744  git checkout cs
+  745  git log
+  746  git reflog
+  747  git checkout cs
+  748  emacs main.cpp 
+  749  cat main.cpp 
+  750  git commit -m"Greetings"
+  751  git add main.cpp 
+  752  git commit -m"Greetings"
+  753  git log
+  754  git push origin cs
+  755  git checkout master
+  756  git merge master cs
+  757  git status
+  758  git checkout cs
+  759  cat main.cpp
+  760  git checkout master
+  761  cat main.cpp
+  762  emacs main.cpp
+  763  git status
+  764  history
+  765  git checkout master
+  766  history
+  767  history | tail -n42 > history.txt
